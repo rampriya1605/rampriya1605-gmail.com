@@ -21,6 +21,21 @@
 	 WebElement ele3=driver.findElement(By.name("btnLogin"));
 	 ele3.click();
  }
+ 
+  public void the_user_validates_the_text_on_console() {
+	 
+	 WebElement ele = driver.findElement(By.xpath("//*[contains(text(),'Manger Id : mngr251876')]"));
+	 String text = ele.getText();
+	 String[] s=text.split(":");
+	 System.out.println(s);
+	 
+ 
+ 
+ }
+ 
+ system.out.print("done")
+
+
 
  
 
