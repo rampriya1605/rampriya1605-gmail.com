@@ -14,6 +14,15 @@
 	 
 	 
  }
+ 
+ public void the_user_clicks_the_login_button()  {
+	 WebElement ele2=driver.findElement(By.name("password"));
+	 ele2.sendKeys("YtugyqY");
+	 WebElement ele3=driver.findElement(By.name("btnLogin"));
+	 ele3.click();
+ }
+
+ 
 
  
  
