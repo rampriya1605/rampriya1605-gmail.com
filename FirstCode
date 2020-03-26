@@ -1,0 +1,19 @@
+
+ public void the_user_launch_the_url() {
+	 WebDriverManager.chromedriver().setup();
+	 driver=new ChromeDriver();
+	 driver.get("https://demo.guru99.com/V4/");
+     driver.manage().window().maximize();
+ }
+
+ 
+ public void the_user_enters_the_uname_and_pwd() {
+	 WebElement ele1=driver.findElement(By.name("uid"));
+	 
+	 ele1.sendKeys("mngr251876");
+	 
+	 
+ }
+
+ 
+ 
